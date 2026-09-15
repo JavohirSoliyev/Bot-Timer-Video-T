@@ -1,0 +1,126 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #101010;
+    color: white;
+}
+
+.app {
+    width: 100%;
+    max-width: 620px;
+    margin: 0 auto;
+    padding: 28px 20px 40px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 25px;
+    margin: 0 0 24px;
+    font-weight: 800;
+}
+
+.timer {
+    background: #ad1b2e;
+    padding: 20px 15px;
+    margin-bottom: 20px;
+}
+
+.timer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.timer h2 {
+    font-size: 38px;
+    letter-spacing: 2px;
+    margin: 10px 0 0;
+    font-weight: 800;
+}
+
+.label {
+    color: #d7a05c;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+}
+
+.main-title {
+    font-size: 32px;
+    line-height: 1.2;
+    margin: 26px 0 14px;
+}
+
+.description {
+    color: #bdbdbd;
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0 auto 26px;
+    max-width: 500px;
+}
+
+/* YouTube video player */
+.video {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background: #252525;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.video iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+}
+
+/* Video haqida */
+.lesson-info {
+    background: #181818;
+    border: 1px solid #303030;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 24px;
+    text-align: left;
+}
+
+.lesson-info h3 {
+    font-size: 18px;
+    margin: 0 0 15px;
+}
+
+.lesson-info ul {
+    margin: 0;
+    padding-left: 22px;
+    color: #d0d0d0;
+    line-height: 1.8;
+}
+
+/* Telefon ekranlari */
+@media (max-width: 480px) {
+    .app {
+        padding: 24px 15px 35px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    .timer h2 {
+        font-size: 32px;
+    }
+
+    .main-title {
+        font-size: 27px;
+    }
+
+    .description {
+        font-size: 14px;
+    }
+}
